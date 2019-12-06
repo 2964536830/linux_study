@@ -2,13 +2,13 @@
 
 ### 查看当前所在目录
 
-```shell
+```shell script
 ~ pwd
 ```
 
 ### 查看列表下的文件或者文件夹
 
-```shell
+```shell script
 ~ ls
 ~ ls /root
 ~ ls -l /root  # 显示root文件夹下详细信息
@@ -19,26 +19,26 @@
 
 ### 创建文件夹
 
-```shell
+```shell script
 ~ mkdir xxx # 创建一个名为xxx的文件夹
 ```
 
 ### 更改目录
 
-```shell
+```shell script
 cd xxx
 cd /xxx/xxx
 ```
 
 ### 增加文件
 
-```shell
+```shell script
 ~ touch xxx.txt
 ```
 
 ### 删除文件
 
-```shell
+```shell script
 ~ rm xx.txt
 ~ rm -i xx.txt
 ~ rm -i xx* # 删除以xx开头的【文件】
@@ -46,7 +46,7 @@ cd /xxx/xxx
 
 ### 删除文件夹
 
-```shell
+```shell script
 # 只能删除空文件夹
 ~ rmdir xx
 ~ rm -r xx # 递归删除
@@ -56,14 +56,14 @@ cd /xxx/xxx
 
 ### 更改文件/文件夹名
 
-```shell
+```shell script
 ~ mv xxx xxx2
 ~ mv xxx xxx2/ # 移动文件到xxx2下
 ```
 
 ### 编辑文件
 
-```shell
+```shell script
 # 按 i 进入编辑模式
 # 按 esc 进入命令模式
 
@@ -77,7 +77,7 @@ cd /xxx/xxx
 
 ### 查看文件
 
-```shell
+```shell script
 ~ cat xxx.py
 ```
 
@@ -85,50 +85,50 @@ cd /xxx/xxx
 
 ### 退出
 
-```shell
+```shell script
 ~ logout
 ~ ctrl + d
 ```
 
 ### 登录
 
-```shell
+```shell script
 ~ ssh xx@192.xx.xx.xx
 ~ ctrl + shift + d
 ```
 
 ### 更改密码
 
-```shell
+```shell script
 ~ passwd root
 ```
 
 ### 帮助手册
 
-```shell
+```shell script
 ~ man rm #查看rm的帮助手册
 ```
 
 ### 查看连接数量
 
-```shell
+```shell script
 ~ w
 ```
 
 ### 查看我是谁
 
-```shell
+```shell script
 ~ whoami
 ```
 
 ### 查看终端信息
 
-```shell
+```shell script
 ~ tty
 ```
 
 ### 更改主机名
 
-```shell
+```shell script
 hostnamectl set-hostname xxxx
 ```
