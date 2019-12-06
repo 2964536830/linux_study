@@ -28,6 +28,9 @@
 ```shell script
 cd xxx
 cd /xxx/xxx
+cd ~  # 回到用户目录 非root 回到 /home/xxx
+cd - # 回到上一次的目录
+
 ```
 
 ### 增加文件
@@ -131,4 +134,10 @@ cd /xxx/xxx
 
 ```shell script
 hostnamectl set-hostname xxxx
+```
+
+## 环境变量
+
+```shell script
+~ echo $xxx # 输出某个变量
 ```
