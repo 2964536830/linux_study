@@ -1,17 +1,24 @@
-### 查看ip地址
-```cmd
+### 查看 ip 地址
+
+```shell
 ~ ip addr
 ```
+
 ### 开启/关闭网卡
-```cmd
+
+```shell
 ~ ifup   /网卡名字  --开启
 ~ ifdown /网卡名字  --关闭
 ```
+
 ### 网络配置文件
-```cmd
+
+```shell
 ~ /etc/sysconfig/network-scripts/
 ```
+
 ### 网络脚本文件
-```cmd
+
+```shell
 ~ /etc/init.d/network
 ```
