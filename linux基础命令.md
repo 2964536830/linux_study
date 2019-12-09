@@ -84,6 +84,48 @@ cd - # 回到上一次的目录
 ~ cat xxx.py
 ```
 
+### 查找文件
+
+```shell script
+~ find -type x -name xxx
+```
+
+### 查看进程 (管道符)
+
+```shell script
+~ ps -ef
+```
+
+### grep(查找)
+
+```shell script
+# 不区分大小写
+~ grep -i 'aaa' xxx.py
+```
+
+### 查看文件大小
+
+```shell script
+# 不区分大小写
+-s 显示总计 -h 显示单位
+~ du xxx -h
+~ du -sh /
+~ du -sh *
+```
+
+### 文件加锁
+
+```shell script
+~ chattr +a xxx
+~ chattr -a xxx
+```
+
+### wegt
+
+```shell script
+~ wegt -r -p http://xxxxx
+```
+
 ## 其他命令
 
 ### 退出
@@ -112,6 +154,18 @@ cd - # 回到上一次的目录
 ~ man rm #查看rm的帮助手册
 ```
 
+### TOP 查看系统负载
+
+```shell script
+~ top
+```
+
+### TOP 查看系统负载
+
+```shell script
+~ top
+```
+
 ### 查看连接数量
 
 ```shell script
@@ -134,6 +188,31 @@ cd - # 回到上一次的目录
 
 ```shell script
 hostnamectl set-hostname xxxx
+```
+
+### 设置别名
+
+```shell script
+~ alias rm='xxxxx'
+~ unalias rm
+```
+
+### which
+
+```shell script
+# 查找命令的绝对路径
+~ which python
+```
+
+### scp 文件传输
+
+```shell script
+# 通过ssh登录的安全传输
+~ scp ./xxx root@192.168.0.1/opt
+# 递归传输文件夹
+~ scp -r ./xxx root@192.168.0.1/opt
+# 远程拷贝到自己
+~ scp -r root@192.168.0.1/opt /xxx
 ```
 
 ## 环境变量
