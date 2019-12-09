@@ -220,3 +220,11 @@ hostnamectl set-hostname xxxx
 ```shell script
 ~ echo $xxx # 输出某个变量
 ```
+
+## 查看系统版本
+
+```shell script
+ uname -a
+ uname -m
+ uname -r
+```
