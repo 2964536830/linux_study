@@ -160,10 +160,11 @@ cd - # 回到上一次的目录
 ~ top
 ```
 
-### TOP 查看系统负载
+### 查看域名信息
 
 ```shell script
-~ top
+~ nslookup xxx.com
+~ ping xxx.com
 ```
 
 ### 查看连接数量
@@ -218,7 +219,9 @@ hostnamectl set-hostname xxxx
 ## 环境变量
 
 ```shell script
-~ echo $xxx # 输出某个变量
+~ echo $xxx 	# 输出某个变量
+~ echo $LANG	# 查看语言
+~ echo $PATH	# 查看环境变量
 ```
 
 ## 查看系统版本
@@ -228,3 +231,4 @@ hostnamectl set-hostname xxxx
  uname -m
  uname -r
 ```
+
