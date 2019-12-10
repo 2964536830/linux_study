@@ -140,4 +140,5 @@ hostnamectl set-hostname xxxx
 
 ```shell script
 ~ echo $xxx # 输出某个变量
+~ echo $PATH # 输出环境变量
 ```
