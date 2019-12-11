@@ -71,3 +71,12 @@
 ~ yum clean all # 清空
 ~ yum makecache # 生成新的
 ```
+
+### nginx 操作
+
+```shell
+# 启动,停止,重启
+~ systemctl start/stop/restart nginx
+# 查看状态
+~ systemctl status nginx
+```
