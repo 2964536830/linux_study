@@ -226,6 +226,7 @@ hostnamectl set-hostname xxxx
 
 ## 查看系统版本
 
+
 ```shell script
  uname -a
  uname -m
